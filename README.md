@@ -34,7 +34,7 @@ Each prefix represents a document category. This mirrors how a law firm's file s
 | **Access Method** | Pre-Signed URLs only (no public bucket policy) | Clients/lawyers get temporary, auditable access links instead of permanent public URLs |
 
 **Screenshot:**
-`![Bucket with versioning, encryption, and tags enabled](screenshots/bucket-versioning-encryption-tags.png)`
+![Bucket with versioning, encryption, and tags enabled](screenshots/bucket-versioning-encryption-tags.png)
 
 ---
 
@@ -52,7 +52,7 @@ Legal records have regulatory retention requirements (commonly 7 years in many j
 This rule applies to **all objects** in the bucket, ensuring no document is forgotten or manually mismanaged.
 
 **Screenshot:**
-`![Lifecycle rule with all transitions configured](screenshots/lifecycle-rule-transitions.png)`
+![Lifecycle rule with all transitions configured](screenshots/lifecycle-rule-transitions.png)
 
 ---
 
@@ -72,10 +72,10 @@ Lawyers need to share documents with clients without giving them AWS accounts or
 ### Demonstrated behaviour:
 
 **Working link (within expiry window):**
-`![Pre-signed URL working in browser](screenshots/presigned-url-working.png)`
+![Pre-signed URL working in browser](screenshots/presigned-url-working.png)
 
 **Expired link (after expiry window):**
-`![Pre-signed URL expired](screenshots/presigned-url-expired.png)`
+![Pre-signed URL expired](screenshots/presigned-url-expired.png)
 
 This gives the firm **fine-grained, auditable, time-bound sharing** — far more secure than emailing attachments or making files public.
 
@@ -100,7 +100,7 @@ Approximate monthly costs for a small law firm with ~50 GB of documents and mode
 
 ## 🗂️ Folder Structure (S3 Console View)
 
-`![Objects organised in 3 prefix folders](screenshots/folder-structure.png)`
+![Objects organised in 3 prefix folders](screenshots/folder-structure.png)
 
 ---
 
